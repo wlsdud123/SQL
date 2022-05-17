@@ -80,7 +80,7 @@ select r.region_name,
        c.country_name
 from countries c , regions r
 where c.region_id = r.region_id
-order by r.region_name asc ,  c.country_name desc;
+order by r.region_name asc ,  c.country_name desc; //
 
 /*문제5. 
 자신의 매니저보다 채용일(hire_date)이 빠른 사원의

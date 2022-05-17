@@ -10,7 +10,8 @@ select  first_name,
 from employees
 where salary >= (select  salary
                  from employees
-                 where first_name = 'Den');
+                 where first_name = 'Den');//
+                 
 
 --Den의 급여를 구한다
 select  salary   
